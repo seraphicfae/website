@@ -15,15 +15,15 @@ Thanks to [Adi1090x](https://github.com/adi1090x/rofi/) for the incredible rofi 
 ### Showcase
 <table>
   <tr>
-    <td><img src="https://github.com/seraphicfae/hyprland-dotfiles/raw/main/Screenshots/one.png"/></td>
-    <td><img src="https://github.com/seraphicfae/hyprland-dotfiles/raw/main/Screenshots/two.png"/></td>
+    <td><img src="https://github.com/seraphicfae/dotfiles/raw/main/Screenshots/one.png"/></td>
+    <td><img src="https://github.com/seraphicfae/dotfiles/raw/main/Screenshots/two.png"/></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/seraphicfae/hyprland-dotfiles/raw/main/Screenshots/three.png"/></td>
-    <td><img src="https://github.com/seraphicfae/hyprland-dotfiles/raw/main/Screenshots/four.png"/></td>
+    <td><img src="https://github.com/seraphicfae/dotfiles/raw/main/Screenshots/three.png"/></td>
+    <td><img src="https://github.com/seraphicfae/dotfiles/raw/main/Screenshots/four.png"/></td>
   </tr>
 </table>
-<img src="https://github.com/seraphicfae/hyprland-dotfiles/raw/main/Screenshots/waybar.png"/>
+<img src="https://github.com/seraphicfae/dotfiles/raw/main/Screenshots/waybar.png"/>
 
 ### Run the installation script:
 ##### Don't run random scripts blindly.
