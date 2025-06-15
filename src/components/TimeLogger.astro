@@ -1,0 +1,24 @@
+<div id="time-logger">
+Time it's been since I started: <b><span id="time-elapsed">...</span></b>
+</div>
+
+<script type="module">
+    const startTime = new Date("2025-05-22T14:28:00");
+    const display = document.getElementById("time-elapsed");
+
+    function updateTime() {
+        if (!display) return;
+
+        const now = new Date();
+        const diffMs = now - startTime;
+
+        const minutes = Math.floor(diffMs / 1000 / 60);
+        const hours = Math.floor(minutes / 60);
+        const remainingMinutes = minutes % 60;
+
+        display.textContent = `${hours} hour${hours !== 1 ? "s" : ""}, ${remainingMinutes} minute${remainingMinutes !== 1 ? "s" : ""}`;
+    }
+
+    updateTime();
+    setInterval(updateTime, 60_000);
+</script>
