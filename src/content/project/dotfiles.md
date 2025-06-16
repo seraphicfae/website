@@ -5,12 +5,11 @@ pubDate: 'May 23 2025'
 heroImage: '/assets/dotfiles-hero.png'
 ---
 
+##### My minimal dotfiles for Hyprland
 
-### My somewhat minimal dotfiles for Hyprland
-
-Thanks to [LinuxMobile](https://github.com/linuxmobile) for the base config. \
-Thanks to [Catppuccin](https://github.com/catppuccin) for the amazing themes. \
-Thanks to [Adi1090x](https://github.com/adi1090x/rofi/) for the incredible rofi config.
+Thanks to <u>[LinuxMobile](https://github.com/linuxmobile)</u> for the base config. \
+Thanks to <u>[Catppuccin](https://github.com/catppuccin)</u> for the amazing themes. \
+Thanks to <u>[Adi1090x](https://github.com/adi1090x/rofi/)</u> for the incredible rofi config.
 
 ### Showcase
 <table>
@@ -25,7 +24,7 @@ Thanks to [Adi1090x](https://github.com/adi1090x/rofi/) for the incredible rofi 
 </table>
 <img src="https://github.com/seraphicfae/dotfiles/raw/main/Screenshots/waybar.png"/>
 
-### Run the installation script:
+### Run the installatifon script:
 ##### Don't run random scripts blindly.
 ```
 git clone https://github.com/seraphicfae/hyprland-dotfiles
@@ -34,16 +33,15 @@ cd hyprland-dotfiles
 ```
 
 ### Manual installation:
-##### Made for a fresh install, do not execute commands blindly.
+###### Made for a fresh install, do not execute commands blindly.
 #### Dependencies
 
 ```
-paru -S hyprland hyprlock hyprpicker xorg-xwayland qt5-wayland qt6-wayland gvfs gvfs-mtp mtpfs
-xdg-user-dirs networkmanager network-manager-applet bluez bluez-utils blueman pavucontrol mpv
-amberol gimp eog obs-studio vesktop-bin zen-browser-bin zed keepassxc flatpak
-nautilus-open-any-terminal noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-jetbrains-mono-nerd
-sddm sddm-theme-catppuccin waybar swww slurp grim wl-clipboard rofi swaync nwg-look qt6ct-kde kvantum papirus-icon-theme
-starship zsh zoxide fzf fd mission-center ranger cava kitty fastfetch && rm -rf ~/paru
+paru -S hyprland hyprlock hyprpicker xorg-xwayland qt5-wayland qt6-wayland gvfs gvfs-mtp mtpfs xdg-user-dirs networkmanager
+network-manager-applet bluez bluez-utils blueman pavucontrol mpv amberol gimp eog obs-studio vesktop-bin zen-browser-bin zed
+keepassxc nautilus-open-any-terminal noto-fonts-cjk noto-fonts-emoji noto-fonts-extra ttf-jetbrains-mono-nerd sddm
+sddm-theme-catppuccin waybar swww slurp grim wl-clipboard rofi swaync nwg-look papirus-icon-theme starship zsh zoxide fzf fd
+mission-center cava kitty fastfetch && rm -rf ~/paru
 ```
 ###### Psst, edit your /etc/pacman.conf for multilib so you can get steam
 
@@ -69,7 +67,7 @@ reboot
 
 ### FAQ / Common Issues
 **My temperature module doesn’t load** \
-Default path is `/sys/class/hwmon/hwmon2/temp1_input`. Set it to your system's correct thermal zone.
+Default path is `/sys/class/hwmon/hwmon2/temp1_input`. Set it to your thermal zone.
 
 **My theme isn't applying to GTK4 apps? (Nautilus & Amberol)** \
 Try deleting the `~/.config/gtk-4.0 folder`, and set the theme via nwg-look.
