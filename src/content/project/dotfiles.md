@@ -24,7 +24,7 @@ Thanks to <u>[Adi1090x](https://github.com/adi1090x/rofi/)</u> for the incredibl
 </table>
 <img src="https://github.com/seraphicfae/dotfiles/raw/main/Screenshots/waybar.png"/>
 
-### Run the installatifon script:
+### Run the installation script:
 ##### Don't run random scripts blindly.
 ```
 git clone https://github.com/seraphicfae/hyprland-dotfiles
