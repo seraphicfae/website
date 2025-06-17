@@ -1,6 +1,6 @@
 :root {
     --accent: #007acc;
-    --bg: linear-gradient(135deg, #ffe6e6, #ffdede);
+    --bg: linear-gradient(135deg, #ffd6d6, #ffdede);
     --text: #000000;
     --card-bg: #f4f4f4;
     --header-bg: #f0f0f0;
@@ -8,7 +8,9 @@
     --link-color: #000;
     --black: 15, 18, 25;
     --gray-light: 229, 233, 240;
-    --box-shadow: 0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%), 0 16px 32px rgba(var(--gray), 33%);
+    --box-shadow:
+        0 2px 6px rgba(var(--gray), 25%), 0 8px 24px rgba(var(--gray), 33%),
+        0 16px 32px rgba(var(--gray), 33%);
 }
 
 html.dark {
@@ -32,7 +34,9 @@ body {
     color: var(--text);
     font-size: 20px;
     line-height: 1.7;
-    transition: background 0.3s ease, color 0.3s ease;
+    transition:
+        background 0.3s ease,
+        color 0.3s ease;
 }
 
 @font-face {
@@ -50,7 +54,6 @@ body {
     font-style: normal;
     font-display: swap;
 }
-
 
 main {
     width: 720px;
@@ -142,7 +145,7 @@ pre {
     overflow-x: auto;
 }
 
-pre>code {
+pre > code {
     all: unset;
 }
 

@@ -3,9 +3,9 @@ import "../styles/global.css";
 import { SITE_TITLE } from "../consts";
 
 interface Props {
-	title: string;
-	description: string;
-	image?: string;
+    title: string;
+    description: string;
+    image?: string;
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -17,30 +17,30 @@ const { title, description, image = "/blog-placeholder-1.jpg" } = Astro.props;
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link rel="icon" type="image/gif" href="/assets/favicon.gif" />
-<link rel="stylesheet" href="/icons/css/all.css">
+<link rel="stylesheet" href="/icons/css/all.css" />
 <link rel="sitemap" href="/sitemap-index.xml" />
 <link
-	rel="alternate"
-	type="application/rss+xml"
-	title={SITE_TITLE}
-	href={new URL("rss.xml", Astro.site)}
+    rel="alternate"
+    type="application/rss+xml"
+    title={SITE_TITLE}
+    href={new URL("rss.xml", Astro.site)}
 />
 <meta name="generator" content={Astro.generator} />
 
 <!-- Font preloads -->
 <link
-	rel="preload"
-	href="/fonts/Raleway-Regular.ttf"
-	as="font"
-	type="font/ttf"
-	crossorigin
+    rel="preload"
+    href="/fonts/Raleway-Regular.ttf"
+    as="font"
+    type="font/ttf"
+    crossorigin
 />
 <link
-	rel="preload"
-	href="/fonts/Raleway-Bold.ttf"
-	as="font"
-	type="font/ttf"
-	crossorigin
+    rel="preload"
+    href="/fonts/Raleway-Bold.ttf"
+    as="font"
+    type="font/ttf"
+    crossorigin
 />
 
 <!-- Canonical URL -->
