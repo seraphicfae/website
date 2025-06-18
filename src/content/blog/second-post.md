@@ -44,7 +44,7 @@ In my opinion, it doesn't matter. Pick with whatever sticks. I would only recomm
 
 - <u>[Arch Linux](https://archlinux.org)</u>, the best distro, but not for everyone.
 - <u>[Fedora](https://fedoraproject.org/)</u>, 2nd best distro, very standardized.
-- <u>[Linux Mint](https://linuxmint.com/)</u>, the 3rd best distro, offers a very simple setup.
+- <u>[Linux Mint](https://linuxmint.com/)</u>, 3rd best distro, offers a very simple setup.
 
 These offer the widest differences in each system. E.g: All come with different desktop environments (DEs),
 Different package managers (Pacman, Rpm, and Apt), and each have their own uniqueness to them. Would I consider
