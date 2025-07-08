@@ -1,6 +1,6 @@
 :root {
     --accent: #007acc;
-    --bg: linear-gradient(135deg, #b3e5fc, #ffe1e1);
+    --bg: linear-gradient(224.3deg, #007acc, #ffe1e1);
     --text: #000000;
     --card-bg: #f4f4f4;
     --header-bg: #f0f0f0;
@@ -16,7 +16,6 @@
 html.dark {
     --accent: #ff77b3;
     --bg: linear-gradient(135deg, #1e1e1e, #ff77b3);
-
     --text: #ffffff;
     --card-bg: #131313;
     --header-bg: #1b1b1b;
