@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://seraphicfae.github.io",
+  site: "https://seraphicfae.dev",
   base: "/",
   integrations: [mdx(), sitemap()],
 });
