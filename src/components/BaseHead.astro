@@ -11,7 +11,7 @@ interface Props {
 const {
     title,
     description,
-    image = "public/assets/metatag-placeholder.jpg",
+    image = "/assets/metatag-placeholder.jpg",
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
