@@ -93,7 +93,7 @@ import HeaderLink from "./HeaderLink.astro";
     }
 </style>
 
-<script type="module" lang="ts">
+<script is:inline type="module" lang="ts">
     window.addEventListener("DOMContentLoaded", () => {
         const toggle = document.getElementById("theme-toggle");
         if (!toggle) return;
@@ -105,7 +105,9 @@ import HeaderLink from "./HeaderLink.astro";
 
         function updateIcon() {
             const isDark = document.documentElement.classList.contains("dark");
-            toggle.innerHTML = isDark ? "☀️" : "🌙";
+            toggle.innerHTML = isDark
+                ? '<i class="fa-solid fa-sun"></i>'
+                : '<i class="fa-solid fa-moon"></i>';
             toggle.setAttribute(
                 "aria-label",
                 isDark ? "Switch to light mode" : "Switch to dark mode",

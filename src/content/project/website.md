@@ -7,7 +7,7 @@ heroImage: '/assets/website-hero.png'
 
 #### Well, you're on it!
 
-I host my portfolio, blog, and projects here!
+I host my "portfolio" and projects here!
 
 I wanted to rewrite my website using <u>[Astro](https://astro.build)</u>;
 and here we are
