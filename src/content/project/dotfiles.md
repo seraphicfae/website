@@ -12,10 +12,7 @@ Thanks to [Catppuccin](https://github.com/catppuccin) for the amazing themes. \
 Thanks to [Adi1090x](https://github.com/adi1090x/rofi/) for the incredible rofi config.
 
 ### Showcase
-<video controls width="100%" style="max-width: 640px;">
-  <source src="https://github.com/user-attachments/assets/6b7fde5b-2e64-4ce6-908a-5a709ffebdbd" type="video/mp4">
-  Your browser doesn’t support HTML5 video.
-</video>
+https://github.com/user-attachments/assets/28afbcf3-c731-4860-99d6-e5372815b158
 
 ### Run the installation script:
 ##### Don't run random scripts blindly.
