@@ -2,7 +2,7 @@
 title: 'Dotfiles'
 description: 'No place like ~'
 pubDate: 'May 23 2025'
-heroImage: '/assets/dotfiles-hero.png'
+heroImage: '/assets/dotfiles-img.png'
 ---
 
 ### My somewhat minimal dotfiles for Hyprland
