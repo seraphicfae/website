@@ -1,4 +1,3 @@
-Give me ¥500
-
-npm install astro
+# How to setup
+npm install astro@latest \
 npm run dev

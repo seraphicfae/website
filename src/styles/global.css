@@ -169,6 +169,44 @@ hr {
     main {
         padding: 1em;
     }
+
+    .prose h1 {
+        font-size: 1.8rem;
+    }
+
+    .prose h2 {
+        font-size: 1.5rem;
+    }
+
+    .prose h3 {
+        font-size: 1.25rem;
+    }
+
+    .prose h4,
+    .prose h5,
+    .prose h6 {
+        font-size: 1.1rem;
+    }
+
+    .prose p,
+    .prose li {
+        font-size: 0.95rem;
+        line-height: 1.5;
+    }
+
+    .prose blockquote {
+        font-size: 1.1rem;
+        padding-left: 0.75rem;
+    }
+
+    .prose code,
+    .prose pre {
+        font-size: 0.9rem;
+    }
+
+    .prose pre {
+        padding: 1em;
+    }
 }
 
 .sr-only {

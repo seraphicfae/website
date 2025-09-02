@@ -1,15 +1,13 @@
 ---
 title: 'Website'
-description: 'Where you are right now!'
+description: 'The cutest site ever! At least for me.'
 pubDate: 'May 23 2025'
 heroImage: '/assets/website-hero.png'
 ---
 
-#### Well, you're on it!
+Hello! Hi! haiii!! This is where I host my unprofessional portfolio and personal projects.
 
-I host my "portfolio" and projects here!
+I rebuilt the site using <u>[Astro](https://astro.build)</u>, just for fun, and to learn astro a little.
 
-I wanted to rewrite my website using <u>[Astro](https://astro.build)</u>;
-and here we are
-
-Check out the source code on <u>[Github](https://github.com/seraphicfae/website)</u> if you're curious how it's built.
+Curious how I made it?
+Check out the source code on <u>[GitHub](https://github.com/seraphicfae/website)</u> where I host other stuff too!
