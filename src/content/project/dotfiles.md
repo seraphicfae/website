@@ -13,7 +13,6 @@ Thanks to:
 ---
 
 ## Showcase
-
 <video controls width="100%" style="max-width: 1080px;">
   <source src="https://github.com/user-attachments/assets/28afbcf3-c731-4860-99d6-e5372815b158" type="video/mp4">
   Your browser doesn’t support HTML5 video.
