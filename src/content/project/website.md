@@ -7,7 +7,7 @@ heroImage: '/assets/website-hero.png'
 
 Hello! Hi! haiii!! This is where I host my unprofessional portfolio and personal projects.
 
-I rebuilt the site using <u>[Astro](https://astro.build)</u>, just for fun, and to learn astro a little.
+I rebuilt the site using <u>[Astro](https://astro.build)</u> to learn about it.
 
-Curious how I made it?
+Curious how I made it? \
 Check out the source code on <u>[GitHub](https://github.com/seraphicfae/website)</u> where I host other stuff too!
